@@ -18,31 +18,20 @@ copyright: Copyright (c) 2020 - 2025 kirchsth, Victor Lupu and Ricardo Niepel
 
 ### Overview
 
-+--------------+--------------------------+
+|property      | value                    |
+|--------------|--------------------------|
 |name:         | c4                       |
-+------------- +--------------------------+
 |display_name: | C4 (C4-PlantUML)         |
-+--------------+--------------------------+
 |description:  | The C4 library enables a simple way of describing and communicate software architectures with an intuitive language.
-+--------------+--------------------------+
 |author:       | kirchsth, Victor Lupu and Ricardo Niepel
-+--------------+--------------------------+
 |version:      | 2.11.0                   |
-+--------------+--------------------------+
 |release:      | https://github.com/plantuml-stdlib/C4-PlantUML/tree/release/v2.11.0
-+--------------+--------------------------+
-|                                         | 
-+--------------+--------------------------+
+|              |                          | 
 |source:       | https://github.com/plantuml-stdlib/C4-PlantUML
-+--------------+--------------------------+
 |issues:       | https://github.com/plantuml-stdlib/C4-PlantUML/issues
-+--------------+--------------------------+
 |discussions:  | https://github.com/plantuml-stdlib/C4-PlantUML/discussions
-+--------------+--------------------------+
 |license:      | MIT, details see [LICENSE](https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LICENSE)
-+--------------+--------------------------+
 |copyright:    | Copyright (c) 2020 - 2025 kirchsth, Victor Lupu and Ricardo Niepel
-+--------------+--------------------------+
 
 ### Description
 
