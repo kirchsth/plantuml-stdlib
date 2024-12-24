@@ -7,7 +7,7 @@ version: 2.11.0
 release: https://github.com/plantuml-stdlib/C4-PlantUML/tree/release/v2.11.0
 
 source: https://github.com/plantuml-stdlib/C4-PlantUML
-issues:https://github.com/plantuml-stdlib/C4-PlantUML/issues
+issues: https://github.com/plantuml-stdlib/C4-PlantUML/issues
 discussions: https://github.com/plantuml-stdlib/C4-PlantUML/discussions
 license: MIT
 license_details: https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LICENSE
