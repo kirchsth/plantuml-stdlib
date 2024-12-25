@@ -31,6 +31,41 @@ copyright: Copyright (c) 2020 - 2025 kirchsth, Victor Lupu and Ricardo Niepel
 |license:      | MIT, details see [LICENSE](https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LICENSE)
 |copyright:    | Copyright (c) 2020 - 2025 kirchsth, Victor Lupu and Ricardo Niepel
 
+===========================
+
+![name: C4](https://img.shields.io/badge/name-C4-blue)
+![display_name: C4 (C4-PlantUML)](https://img.shields.io/badge/display__name-C4_(C4--PlantUML)-blue)
+![version: 2.11.0](https://img.shields.io/badge/version-2.11.0-blue)
+![release: https://github.com/plantuml-stdlib/C4-PlantUML/tree/release/v2.11.0](https://img.shields.io/badge/release-https://github.com/plantuml--stdlib/C4--PlantUML/tree/release/v2.11.0-orange)
+<br>
+![author: kirchsth, Victor Lupu and Ricardo Niepel](https://img.shields.io/badge/author-kirchsth,_Victor_Lupu_and_Ricardo_Niepel-blue)
+<br>
+![description: The C4 library enables a simple way of describing and communicate software architectures with an intuitive language.](https://img.shields.io/badge/description-The_C4_library_enables_a_simple_way_of_describing_and_communicate_software_architectures_with_an_intuitive_language.-blue)
+
+![source: C4](https://img.shields.io/badge/source-https://github.com/plantuml--stdlib/C4--PlantUML-orange)
+<br>
+![issues: C4](https://img.shields.io/badge/issues-https://github.com/plantuml--stdlib/C4--PlantUML/issues-orange)
+<br>
+![discussions: C4](https://img.shields.io/badge/discussions-https://github.com/plantuml--stdlib/C4--PlantUML/discussions-orange)
+<br>
+![license: C4](https://img.shields.io/badge/license-MIT-green)
+![license_details: C4](https://img.shields.io/badge/license__details-https://github.com/plantuml--stdlib/C4--PlantUML/blob/master/LICENSE-orange)
+<br>
+![copyright: C4](https://img.shields.io/badge/copyright-Copyright_(c)_2020_--_2025_kirchsth,_Victor_Lupu_and_Ricardo_Niepel-orange)
+
+===========================
+
+![name: C4](https://img.shields.io/badge/name-C4-blue)
+![display_name: C4 (C4-PlantUML)](https://img.shields.io/badge/display__name-C4_(C4--PlantUML)-blue)
+![version: 2.11.0](https://img.shields.io/badge/version-2.11.0-blue)
+![license: C4](https://img.shields.io/badge/license-MIT-green)
+<br>
+![author: kirchsth, Victor Lupu and Ricardo Niepel](https://img.shields.io/badge/author-kirchsth,_Victor_Lupu_and_Ricardo_Niepel-blue)
+<br>
+![description: The C4 library enables a simple way of describing and communicate software architectures with an intuitive language.](https://img.shields.io/badge/description-The_C4_library_enables_a_simple_way_of_describing_and_communicate_software_architectures_with_an_intuitive_language.-blue)
+
+![all properties see: /C4/README.md](https://img.shields.io/badge/all_properties_see-./stdlib/C4/README.md-orange)
+
 The C4 library enables a simple way of describing and communicate software architectures with an intuitive language.
 
 It is the PlantUML integrated version of [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) and has the big advantage that it can be used without additional external includes.
