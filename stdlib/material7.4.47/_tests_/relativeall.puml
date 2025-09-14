@@ -17,7 +17,7 @@
 !if %variable_exists("MDI_TEST_INCLUDE")
        !$collection = %get_variable_value("MDI_TEST_INCLUDE") + "/"+ $item+ "/all.puml"
 !else
-       !$collection = "https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/master/stdlib/material7.4.47/"+ $item+ "/all.puml"
+       !$collection = "https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/"+ $item+ "/all.puml"
 !endif
         !include $collection
         ' A -> B : $collection
