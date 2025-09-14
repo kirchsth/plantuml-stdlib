@@ -10,6 +10,8 @@ source: https://github.com/Templarian/MaterialDesign-SVG/
 origin: 
 ---
 
+**Attention: Files in this branch use partly "extended" paths that changes can be tested before they are merged into stdlib.**
+
 # Information about the `material7.4.47` Standard Library.
 
 ## Sprites without additional dependencies
@@ -18,8 +20,8 @@ The sprites are imported from https://pictogrammers.com/library/mdi/ and organiz
 
 The sprites can be included via the (normalized) collection name and the (normalized) icon name. In both cases is the normalization an upper camel case notation without any special characters.
 
-**Example:** the original icon `account-alert` belongs to the category ´Account/User´ therefore the corresponding sprite can be included via `!include <material7.4.47/AccountUser/AccountAlert>` (only this icon/sprite) or `!include <material7.4.47/AccountUser/all>` (with all other icons/sprites of the collection).  
-The icon `account-alert` has the category ´Alert/Error´ too, therefore it could be loaded via `!include <material7.4.47/AccountUser/AlertError>` too.
+**Example:** the original icon `account-alert` belongs to the category ´Account/User´ therefore the corresponding sprite can be included via `!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/AccountUser/AccountAlert.puml` (only this icon/sprite) or `!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/AccountUser/all` (with all other icons/sprites of the collection).  
+The icon `account-alert` has the category ´Alert/Error´ too, therefore it could be loaded via `!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/AccountUser/AlertError.puml` too.
 
 The sprites itself has the (normalized) icon name with the prefix `mdi`.
 
@@ -30,8 +32,8 @@ The sprites itself has the (normalized) icon name with the prefix `mdi`.
 
 ' no common.puml loaded, text alignment remains left
 
-!include <material7.4.47/AccountUser/AccountAlert>
-!include <material7.4.47/Emoji/all>
+!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/AccountUser/AccountAlert.puml
+!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/Emoji/all.puml
 
 package "Possible image samples\nwithout additional dependencies" {
   label "explicit loaded sprite in text\n<$mdiAccountAlert>" as accountAlertSprite
@@ -42,9 +44,9 @@ package "Possible image samples\nwithout additional dependencies" {
 @enduml
 ```
 (The source of the sample can be found in [stdlib/material7.4.47/\_examples\_/OnlySpriteSample.puml](https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/material7.4.47/_examples_/OnlySpriteSample.puml))
-[![PleaseOpenLinkIfImageCannotBeDisplayed](https://www.plantuml.com/plantuml/svg/TL2_Jq913DxlhwWl9Yu65X8MGc1mSp0nRYpbhcArrrxk-fJ4-B_xWAV8uDP-pVVZwwevLk-pX703QX0jPzD96H0GmqJf5fps3YYyqqpgK2aZQmEXPm_XYZLAdmWM6PqgeymdiybiFbt7QBtwKwFwCw-5gY__fznbU-KfYYn3A1ZVS4VGFLXhl1K2peUzOIv2RQCVx2_MEs1Ax6oA0eaAQIADJAs3pm0Wk2M1ZlP5EBAFbQ2Loax0UkosqSLrJdmHiWDiW7-GnoCbd3L7ZL7ndH6YYL0yP87V9gTFNXeDH-TeUczoyg4p4Bv2M96cWVKD)](https://www.plantuml.com/plantuml/uml/TL2_Jq913DxlhwWl9Yu65X8MGc1mSp0nRYpbhcArrrxk-fJ4-B_xWAV8uDP-pVVZwwevLk-pX703QX0jPzD96H0GmqJf5fps3YYyqqpgK2aZQmEXPm_XYZLAdmWM6PqgeymdiybiFbt7QBtwKwFwCw-5gY__fznbU-KfYYn3A1ZVS4VGFLXhl1K2peUzOIv2RQCVx2_MEs1Ax6oA0eaAQIADJAs3pm0Wk2M1ZlP5EBAFbQ2Loax0UkosqSLrJdmHiWDiW7-GnoCbd3L7ZL7ndH6YYL0yP87V9gTFNXeDH-TeUczoyg4p4Bv2M96cWVKD)
+[![PleaseOpenLinkIfImageCannotBeDisplayed](https://www.plantuml.com/plantuml/svg/lP6npXCn3CVtF8Kv8R70PQbK2I7K3cmCI8YjYoznUwQE4oK-MWdnxjorXrg-1_Ysn9P_lt_YNJEiDYLnxXreXf1JojgNkGAICL9y3qPN0nG-QI8rg9IGjO7GqPnxmnfaYWIZMMaVlQzuwKziupHCZMh8QgJMprn_vXh6PgClWheuFpIBmeElT6n-98pDpohIsUhNLaAZoYZRVjDljduVGfxKVipaV-UzKBLRu5VEyYNbd-nHv2vt1SCPJmJTjzmQ3qB0QRatJ4Me7VJ2DkR906Dauwme4Aai2WrChOFV3a1m886EhaKuiArBW5Og6m7hRHi7_VGsHNx-WSyTO0Dygdo_ZRW7SsMin5-C4B88XIKB_F-Q5wAvQHooVirozz2ZuFuujoEDyzHV)](https://www.plantuml.com/plantuml/uml/lP6npXCn3CVtF8Kv8R70PQbK2I7K3cmCI8YjYoznUwQE4oK-MWdnxjorXrg-1_Ysn9P_lt_YNJEiDYLnxXreXf1JojgNkGAICL9y3qPN0nG-QI8rg9IGjO7GqPnxmnfaYWIZMMaVlQzuwKziupHCZMh8QgJMprn_vXh6PgClWheuFpIBmeElT6n-98pDpohIsUhNLaAZoYZRVjDljduVGfxKVipaV-UzKBLRu5VEyYNbd-nHv2vt1SCPJmJTjzmQ3qB0QRatJ4Me7VJ2DkR906Dauwme4Aai2WrChOFV3a1m886EhaKuiArBW5Og6m7hRHi7_VGsHNx-WSyTO0Dygdo_ZRW7SsMin5-C4B88XIKB_F-Q5wAvQHooVirozz2ZuFuujoEDyzHV)
 
-## Extended functionality with `!include <material7.4.47/common>`
+## Extended functionality with `!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/common.puml`
 
 If the common file is included, the following additional functionalities are provided per sprite:
 
@@ -131,10 +133,10 @@ The usage is similar to the above described usage without additional dependencie
 '   then any text alignment of ../common.puml can be avoided via `!$MDI_ALIGNMENT=""` 
 '   before the include
 ' !$MDI_ALIGNMENT=""
-' !include <material7.4.47/common>
+' !include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/common.puml
 
-!include <material7.4.47/AccountUser/AccountAlert>
-!include <material7.4.47/Emoji/all>
+!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/AccountUser/AccountAlert.puml
+!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/Emoji/all.puml
 
 package "Image sample\nwith C4" {
 
@@ -147,7 +149,7 @@ package "Image sample\nwith C4" {
 @enduml
 ```
 
-[![PleaseOpenLinkIfImageCannotBeDisplayed](https://www.plantuml.com/plantuml/svg/TP1DQzn038Rl_XNA46W2mNinvD8DSTnG5fgbbFPMIBHZRJojHkFEo4cNqlzUkKcRZv2JZUPztaVej2XcdI9NrLuGprDFyBPh5brpsILH34BvfAhUm3g1Jp4cgKTB0oVigJy2fPyAoE5Q8eb2fcX80QQj6WImsZx1of0cxc53S2_huU1s27w0K41tO_38l0D9SzMFAMGB186kiHQPNOVmjrO74a3PFVUdBTJruh7Heymwl4bXjjq4XAkz_Ojtgylsm-hz-k9y_NdftDLTxOQsAPEr_z_FnY_JDdmuLaIb792FwwPkZk_TTh9N4wttQHBzKYZ_-s-PifwyZfp7z2qiaDbwH_JVyPh0hUByAHX7fgzo6tImEpduLLK07ocN90Vj4UoNCGUbfOjzU6npziIu8Lwwkp2qxl21F7jAsW8QV98rJPgHNy9d1XlzYNYM6kqwP2us_LrLfoJz5FaF)](https://www.plantuml.com/plantuml/uml/TP1DQzn038Rl_XNA46W2mNinvD8DSTnG5fgbbFPMIBHZRJojHkFEo4cNqlzUkKcRZv2JZUPztaVej2XcdI9NrLuGprDFyBPh5brpsILH34BvfAhUm3g1Jp4cgKTB0oVigJy2fPyAoE5Q8eb2fcX80QQj6WImsZx1of0cxc53S2_huU1s27w0K41tO_38l0D9SzMFAMGB186kiHQPNOVmjrO74a3PFVUdBTJruh7Heymwl4bXjjq4XAkz_Ojtgylsm-hz-k9y_NdftDLTxOQsAPEr_z_FnY_JDdmuLaIb792FwwPkZk_TTh9N4wttQHBzKYZ_-s-PifwyZfp7z2qiaDbwH_JVyPh0hUByAHX7fgzo6tImEpduLLK07ocN90Vj4UoNCGUbfOjzU6npziIu8Lwwkp2qxl21F7jAsW8QV98rJPgHNy9d1XlzYNYM6kqwP2us_LrLfoJz5FaF)
+[![PleaseOpenLinkIfImageCannotBeDisplayed](https://www.plantuml.com/plantuml/svg/lOz1Qzj048Nl-oic8j04Kkr542XrYQE6OcXCAUsja8obaRNDxAwwEufhIlzxHx53dUIUqoupyzxttaKMJ39wDkR8XOR7bk1zNTcwkgbZ47I1qWTZti0oGXEzZw4Sz1euOalj6GZz5a1sw-0f22JoAid0r8cA01RT4rdkuyWjh0Zsi1PEDhrhUd0PP3ku1fct4E9azMjqIGzSWBfIbp2nJk71LdeAW67xd1yxA4jxI6mmJ3YyZswYtJk4swFZwu-Bc_ddnQVbzTNoswmeRdUsA-fYeidzCP-ENrvFm_qUUf4XlxCsuQPSE-d7rPWfFQGDKceIU-TIqsVfxS0OH3EzpTAoMzb4NROzOPkjjg2W-Un-vL4eEUJpiYghyyD2nhmkUjuqSGpoNPqV_tEc9BimhvlboiUVpYBp3cu6REvmJL0i_FHaz0FJZx1HFjHL0N-C0VX2ASTmCZ-3upma9pGhVEiEgnIwObmHpuhTCSoBq__AowTA3I5EYorfb8JyKdofObL_9PwWgYvgPCuw_MlCXVRJxFy0)](https://www.plantuml.com/plantuml/uml/lOz1Qzj048Nl-oic8j04Kkr542XrYQE6OcXCAUsja8obaRNDxAwwEufhIlzxHx53dUIUqoupyzxttaKMJ39wDkR8XOR7bk1zNTcwkgbZ47I1qWTZti0oGXEzZw4Sz1euOalj6GZz5a1sw-0f22JoAid0r8cA01RT4rdkuyWjh0Zsi1PEDhrhUd0PP3ku1fct4E9azMjqIGzSWBfIbp2nJk71LdeAW67xd1yxA4jxI6mmJ3YyZswYtJk4swFZwu-Bc_ddnQVbzTNoswmeRdUsA-fYeidzCP-ENrvFm_qUUf4XlxCsuQPSE-d7rPWfFQGDKceIU-TIqsVfxS0OH3EzpTAoMzb4NROzOPkjjg2W-Un-vL4eEUJpiYghyyD2nhmkUjuqSGpoNPqV_tEc9BimhvlboiUVpYBp3cu6REvmJL0i_FHaz0FJZx1HFjHL0N-C0VX2ASTmCZ-3upma9pGhVEiEgnIwObmHpuhTCSoBq__AowTA3I5EYorfb8JyKdofObL_9PwWgYvgPCuw_MlCXVRJxFy0)
 
 **Material sprites in combination with C4-PlantUML and its new `!NEW_C4_STYLE = 1`**
 
@@ -164,10 +166,10 @@ package "Image sample\nwith C4" {
 '   then any text alignment of ../common.puml can be avoided via `!$MDI_ALIGNMENT=""` 
 '   before the include
 ' !$MDI_ALIGNMENT=""
-' !include <material7.4.47/common>
+' !include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/common.puml
 
-!include <material7.4.47/AccountUser/AccountAlert>
-!include <material7.4.47/Emoji/all>
+!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/AccountUser/AccountAlert.puml
+!include https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/Emoji/all.puml
 
 !$text="Image sample\nwith C4 and new Style (!NEW"+"_C4_STYLE = 1)"
 package "$text" {
@@ -181,5 +183,5 @@ package "$text" {
 @enduml
 ```
 
-[![PleaseOpenLinkIfImageCannotBeDisplayed](https://www.plantuml.com/plantuml/svg/TP9zQnf14CR_lqynMOGgDNSKX429aekL8gY4l50A1JFUZTws-tBTdTDAwNVlhYyqrv3_bjdvpVFCmznuHiUDLado3lA2vHQPmD0EnWFml5UKN2mcNvRZmVBXyUji0aFu43gxdaibLt0z7cJXQsmDepJaHb1Qyc0imvuOV5FNrd5hNXyaGuKUsCAAG9f2DIMLi9K8riaDFDtFUid5gGuLS-q_Pfd3NRgHN3MhnfChWY0PJWkhirgXYHjS7Zq5FvTtiVGqdsKQFPDhMKphqxOB2m7NrXmge2m66trW-iM0IcwC3WhWI0VCWw8r1mXWkcvXlhADAbkRT7ULB2gG7dXVomALsXyISVIpaIuqI1FJY3i4hHuSnd951j3i_zUtQqZJxALYWIRAuTRASsxF5vtvf-aodqq_B-QJnUDGYEVZs1MjhQCu_Umlb5ztn-8vyMkDJ4wYkae7wU3gf3rAaZSxygAmJGZSapk_SqMEHsyZ4ss_omoLYdCxSUUXc6hS47ZKjQ9lPYUvYZ6XAG_tyn2F1xhn6iLxqJh8daXgB7v4MXnc2VYT901tvBmrtRmF7LyxoJGKkfGl7OhmfN15QYYEpP2BtZ_ojaq6qomBQnRKi4Fr6huDSA3lIKNHG8inAkL3zK-It90f6wt-0W00)](https://www.plantuml.com/plantuml/uml/TP9zQnf14CR_lqynMOGgDNSKX429aekL8gY4l50A1JFUZTws-tBTdTDAwNVlhYyqrv3_bjdvpVFCmznuHiUDLado3lA2vHQPmD0EnWFml5UKN2mcNvRZmVBXyUji0aFu43gxdaibLt0z7cJXQsmDepJaHb1Qyc0imvuOV5FNrd5hNXyaGuKUsCAAG9f2DIMLi9K8riaDFDtFUid5gGuLS-q_Pfd3NRgHN3MhnfChWY0PJWkhirgXYHjS7Zq5FvTtiVGqdsKQFPDhMKphqxOB2m7NrXmge2m66trW-iM0IcwC3WhWI0VCWw8r1mXWkcvXlhADAbkRT7ULB2gG7dXVomALsXyISVIpaIuqI1FJY3i4hHuSnd951j3i_zUtQqZJxALYWIRAuTRASsxF5vtvf-aodqq_B-QJnUDGYEVZs1MjhQCu_Umlb5ztn-8vyMkDJ4wYkae7wU3gf3rAaZSxygAmJGZSapk_SqMEHsyZ4ss_omoLYdCxSUUXc6hS47ZKjQ9lPYUvYZ6XAG_tyn2F1xhn6iLxqJh8daXgB7v4MXnc2VYT901tvBmrtRmF7LyxoJGKkfGl7OhmfN15QYYEpP2BtZ_ojaq6qomBQnRKi4Fr6huDSA3lIKNHG8inAkL3zK-It90f6wt-0W00)
+[![PleaseOpenLinkIfImageCannotBeDisplayed](https://www.plantuml.com/plantuml/svg/lLDDQzj04BthLqoMG6sQI1GCWLANAAuf1iU4V50A1MSiZQrjLhlgxiYkAVtl7SasjUfJBxc9sNaVxw6v3eoUwz94qHj8CzPhP09B6nWD8F3MK7Gs6t-PZmRpXyUlqp4CuPrizWBdHY_WmsYGoDF8MKPjoN-4t540wnYsn13ggdAUEtmNe1aA3C0E5WJQPgREAOUrHd1Uh-3fVjgFplPpA9Yhy3v9F6xYbUQYNjI1V2Q2P3dEN9bK1csJu7BdIVnStZMZfzjfKc9WyXsBSRLFEtCWyDBPTWB6eTYu0AQV36ZqofQY09vAWGKmj6G10KoM7LWeN6toJfBUfj1P0Je0RokTeJ7RjX5FFshjPK7RfeqcWsZreQNbWYoWtVwhxvOGnycnOeQsaSErquVUdi_ERpzDvkbqydbsEvuz3fLwtj4kQEayDUm7Vp8-tPRXVpJ-edrM12vEglUq34b1c8T4Kf0LVyd-gKGchz5SnODuS7KSA8fULphDCbTRVXBcmtTgo7DhvfMzZ4ltNITepA69SnR4K4rAN144B2j3t-n6v9i_1ctUdj93SqVGQmvJlLMTs-ohgCBifK6hbal1hoW2k2CVdEsb5t0UAg-PXghCzN5y9Ky65sI6QhSCgUh_HTvqaMASjPGnevezcbFmZO05VK-c4HMq6adC8DFVKNGjdKZUFm00)](https://www.plantuml.com/plantuml/uml/lLDDQzj04BthLqoMG6sQI1GCWLANAAuf1iU4V50A1MSiZQrjLhlgxiYkAVtl7SasjUfJBxc9sNaVxw6v3eoUwz94qHj8CzPhP09B6nWD8F3MK7Gs6t-PZmRpXyUlqp4CuPrizWBdHY_WmsYGoDF8MKPjoN-4t540wnYsn13ggdAUEtmNe1aA3C0E5WJQPgREAOUrHd1Uh-3fVjgFplPpA9Yhy3v9F6xYbUQYNjI1V2Q2P3dEN9bK1csJu7BdIVnStZMZfzjfKc9WyXsBSRLFEtCWyDBPTWB6eTYu0AQV36ZqofQY09vAWGKmj6G10KoM7LWeN6toJfBUfj1P0Je0RokTeJ7RjX5FFshjPK7RfeqcWsZreQNbWYoWtVwhxvOGnycnOeQsaSErquVUdi_ERpzDvkbqydbsEvuz3fLwtj4kQEayDUm7Vp8-tPRXVpJ-edrM12vEglUq34b1c8T4Kf0LVyd-gKGchz5SnODuS7KSA8fULphDCbTRVXBcmtTgo7DhvfMzZ4ltNITepA69SnR4K4rAN144B2j3t-n6v9i_1ctUdj93SqVGQmvJlLMTs-ohgCBifK6hbal1hoW2k2CVdEsb5t0UAg-PXghCzN5y9Ky65sI6QhSCgUh_HTvqaMASjPGnevezcbFmZO05VK-c4HMq6adC8DFVKNGjdKZUFm00)
 
