@@ -6,7 +6,7 @@
 !if %variable_exists("MDI_TEST_INCLUDE")
   !$file = %get_variable_value("MDI_TEST_INCLUDE") + "/all.json"
 !else
-  !$file = "https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/master/stdlib/material7.4.47/all.json"
+  !$file = "https://raw.githubusercontent.com/kirchsth/plantuml-stdlib/refs/heads/extended/stdlib/material7.4.47/all.json"
 !endif
 
    ' It is not working at the moment (details unclear).
